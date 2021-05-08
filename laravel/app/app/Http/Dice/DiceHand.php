@@ -52,11 +52,11 @@ class DiceHand
         $result = "";
 
         for ($i = 0; $i < $this->numberDices; $i++) {
-            $res .= $this->dices[$i]->getLastRoll() . ", ";
+            // $res .= $this->dices[$i]->getLastRoll() . ", ";
             $result .= $this->dices[$i]->asString() . " ";
         }
-        $res = substr($res, 0, -2);
-        $result .= "<br>" . $res . " = " . $this->sum;
+        // $res = substr($res, 0, -2);
+        $result = $result . " = " . $this->sum;
         return $result;
     }
 

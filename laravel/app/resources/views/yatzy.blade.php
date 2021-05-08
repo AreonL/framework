@@ -24,13 +24,12 @@ $bonus = $session["bonus"] ?? 0;
 
 <h1>{{ $header }}</h1>
 
-<p>{{ $message }}</p>
-
 <!-- If first visit -->
 @if($end)
     <p>The end</p>
     <p>Total sum: {{ $bonus + $summa }}</p>
 @elseif($yatzy)
+    <p>{{ $message }}</p>
     <form method="post" action="{{ $action }}">
         @csrf
         <p>
@@ -40,73 +39,73 @@ $bonus = $session["bonus"] ?? 0;
     </form>
 <!-- If pressed play -->
 @elseif ($roll)
-    <p class="dices"><?= $dh ?></p>
-    <form method="post" action="<?= $action ?>">
+    <p class="dices">{{ $dh }}</p>
+    <form method="post" action="{{ $action }}">
         @csrf
         <p>
             <input type="hidden" name="roll" value="roll">
-            <?php if ($session["rollCounter"] < 3) : ?>
-            <input type="checkbox" name="check[]" value="0" checked="checked">
-            <input type="checkbox" name="check[]" value="1" checked="checked">
-            <input type="checkbox" name="check[]" value="2" checked="checked">
-            <input type="checkbox" name="check[]" value="3" checked="checked">
-            <input type="checkbox" name="check[]" value="4" checked="checked">
+            @if ($session["rollCounter"] < 3)
+            <input class="checkbox" type="checkbox" name="check[]" value="0" checked="checked">
+            <input class="checkbox" type="checkbox" name="check[]" value="1" checked="checked">
+            <input class="checkbox" type="checkbox" name="check[]" value="2" checked="checked">
+            <input class="checkbox" type="checkbox" name="check[]" value="3" checked="checked">
+            <input class="checkbox" type="checkbox" name="check[]" value="4" checked="checked">
             <br>
             <br>
             <input type="submit" value="Roll selected">
             <br>
-            <?php endif; ?>
+            @endif
             <p>
                 <label>1:or</label>
-                <?php if (is_null($select1)) : ?>
+                @if (is_null($select1))
                 <input type="checkbox" name="selection[]" value="1">
-                <?php else :?>
-                    = <?= $select1 ?>
-                <?php endif; ?>
+                @else
+                    = {{ $select1 }}
+                @endif
             </p>
             <p>
                 <label>2:or</label>
-                <?php if (is_null($select2)) : ?>
+                @if (is_null($select2))
                 <input type="checkbox" name="selection[]" value="2">
-                <?php else :?>
-                    = <?= $select2 ?>
-                <?php endif; ?>
+                @else
+                    = {{ $select2 }}
+                @endif
             </p>
             <p>
                 <label>3:or</label>
-                <?php if (is_null($select3)) : ?>
+                @if (is_null($select3))
                 <input type="checkbox" name="selection[]" value="3">
-                <?php else :?>
-                    = <?= $select3 ?>
-                <?php endif; ?>
+                @else
+                    = {{ $select3 }}
+                @endif
             </p>
             <p>
             <label>4:or</label>
-                <?php if (is_null($select4)) : ?>
+                @if (is_null($select4))
                 <input type="checkbox" name="selection[]" value="4">
-                <?php else :?>
-                    = <?= $select4 ?>
-                <?php endif; ?>
+                @else
+                    = {{ $select4 }}
+                @endif
             </p>
             <p>
             <label>5:or</label>
-                <?php if (is_null($select5)) : ?>
+                @if (is_null($select5))
                 <input type="checkbox" name="selection[]" value="5">
-                <?php else :?>
-                    = <?= $select5 ?>
-                <?php endif; ?>
+                @else
+                    = {{ $select5 }}
+                @endif
             </p>
             <p>
             <label>6:or</label>
-                <?php if (is_null($select6)) : ?>
+                @if (is_null($select6))
                 <input type="checkbox" name="selection[]" value="6">
-                <?php else :?>
-                    = <?= $select6 ?>
-                <?php endif; ?>
+                @else
+                    = {{ $select6 }}
+                @endif
             </p>
-            <p>Summa: <?= $summa ?></p>
-            <p>Bonus: <?= $bonus ?></p>
-            <p>Total: <?= $bonus + $summa ?></p>
+            <p>Summa: {{ $summa }}</p>
+            <p>Bonus: {{ $bonus }}</p>
+            <p>Total: {{ $bonus + $summa }}</p>
             <input type="submit" value="Select">
         </p>
     </form>
