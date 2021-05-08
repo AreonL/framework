@@ -1,7 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HelloWorldController;
+use App\Http\Controllers\{
+    HelloWorldController,
+    YatzyController,
+    SessionController
+};
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,3 +35,8 @@ Route::get('/hello', [HelloWorldController::class, 'hello']);
 Route::get('/hello/{message}', [HelloWorldController::class, 'hello']);
 
 // Kmom04 / Import routes for yatzy and game21
+Route::get('/yatzy', [YatzyController::class, 'index']);
+Route::post('/yatzy/game', [YatzyController::class, 'game']);
+
+Route::get('/session', [SessionController::class, 'session']);
+Route::post('/session/destroy', [SessionController::class, 'destroy']);
