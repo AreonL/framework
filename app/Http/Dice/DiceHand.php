@@ -48,7 +48,7 @@ class DiceHand
 
     public function getHand(): string
     {
-        $res = "";
+        // $res = "";
         $result = "";
 
         for ($i = 0; $i < $this->numberDices; $i++) {

@@ -7,6 +7,7 @@ use App\Http\Controllers\{
     SessionController,
     GameController
 };
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

@@ -7,12 +7,6 @@ use Illuminate\Http\Request;
 
 class SessionController extends Controller
 {
-    /**
-     * Display a message.
-     *
-     * @param  string  $message
-     * @return \Illuminate\View\View
-     */
     public function session(Request $request)
     {
         return view('session', [

@@ -45,7 +45,7 @@ class GameController extends Controller
         ]);
     }
 
-    public function roll() 
+    public function roll()
     {
         session(["redo" => $_POST['redo'] ?? null]);
         session(["reset" => $_POST['reset'] ?? null]);
