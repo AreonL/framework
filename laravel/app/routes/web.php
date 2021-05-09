@@ -4,7 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\{
     HelloWorldController,
     YatzyController,
-    SessionController
+    SessionController,
+    GameController
 };
 /*
 |--------------------------------------------------------------------------
@@ -40,3 +41,6 @@ Route::post('/yatzy/game', [YatzyController::class, 'game']);
 
 Route::get('/session', [SessionController::class, 'session']);
 Route::post('/session/destroy', [SessionController::class, 'destroy']);
+
+Route::get('/game21', [GameController::class, 'index']);
+Route::post('/game21/roll', [GameController::class, 'roll']);

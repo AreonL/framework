@@ -19,7 +19,7 @@
         <nav>
             <a href={{ url("/") }}>Home</a> | 
             <a href={{ url("/yatzy") }}>Yatzy</a> | 
-            <a href={{ url("/yatzy") }}>Game21</a> | 
+            <a href={{ url("/game21") }}>Game21</a> | 
             <a href={{ url("/session") }}>Clear Session</a>
         </nav>
     </header>

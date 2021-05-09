@@ -12,12 +12,6 @@ use Illuminate\Http\Request;
 
 class YatzyController extends Controller
 {
-    /**
-     * Display a message.
-     *
-     * @param  string  $message
-     * @return \Illuminate\View\View
-     */
     public function index(Request $request)
     {
         // $request->session()->flush();

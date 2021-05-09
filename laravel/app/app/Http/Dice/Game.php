@@ -5,18 +5,13 @@ declare(strict_types=1);
 
 namespace App\Http\Dice;
 
-use AreonL\Dice\{
+use App\Http\{
     Dice,
     DiceHand,
     DiceGraphic
 };
 use Nyholm\Psr7\Factory\Psr17Factory;
 use Psr\Http\Message\ResponseInterface;
-
-use function Mos\Functions\{
-    renderView,
-    url
-};
 
 //
 //running
