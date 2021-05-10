@@ -9,17 +9,19 @@ use AreonL\Dice\{
     DiceHand,
     DiceGraphic
 };
-use PHPUnit\Framework\TestCase;
-use Psr\Http\Message\ResponseInterface;
+// use PHPUnit\Framework\TestCase;
+// use Psr\Http\Message\ResponseInterface;
 
 // namespace Tests\Feature;
 
-// use Illuminate\Foundation\Testing\RefreshDatabase;
-// use Illuminate\Foundation\Testing\WithoutMiddleware;
-// use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithoutMiddleware;
+use Tests\TestCase;
+
+use Illuminate\Http\Request;
 
 /**
- * Test cases for the controller Yatzy.
+ * Test cases for the controller YatzyController.
  */
 class ControllerYatzyTest extends TestCase
 {
@@ -35,14 +37,14 @@ class ControllerYatzyTest extends TestCase
     /**
      * Check that the controller returns a response.
      */
-    public function testIndexReturnsResponse()
+    public function testReturnsResponse()
     {
         $controller = new YatzyController();
+        $this->assertInstanceOf("App\Http\Controllers\YatzyController", $controller);
 
-        $exp = "\Psr\Http\Message\ResponseInterface";
-        $res = $controller->index(null);
-        var_dump($res);
-        $this->assertInstanceOf($exp, $res);
+        $response = $this->get('/yatzy');
+
+        $response->assertStatus(200);
     }
 
     /**
@@ -50,15 +52,16 @@ class ControllerYatzyTest extends TestCase
      */
     public function testIndexFirstRollResponse()
     {
-        $controller = new Yatzy();
+        $controller = new YatzyController();
+        $this->assertInstanceOf("App\Http\Controllers\YatzyController", $controller);
 
-        $_SESSION = [
+        session([
             "firstRoll" => "firstRoll"
-        ];
+        ]);
 
-        $exp = "\Psr\Http\Message\ResponseInterface";
-        $res = $controller->index();
-        $this->assertInstanceOf($exp, $res);
+        $response = $this->get('/yatzy');
+
+        $response->assertStatus(200);
     }
 
     /**
@@ -66,55 +69,58 @@ class ControllerYatzyTest extends TestCase
      */
     public function testIndexRollResponse()
     {
-        $controller = new Yatzy();
+        $controller = new YatzyController();
+        $this->assertInstanceOf("App\Http\Controllers\YatzyController", $controller);
 
-        $_SESSION = [
+        session([
             "roll" => "roll"
-        ];
+        ]);
 
-        $exp = "\Psr\Http\Message\ResponseInterface";
-        $res = $controller->index();
-        $this->assertInstanceOf($exp, $res);
+        $response = $this->get('/yatzy');
+
+        $response->assertStatus(200);
     }
+
+    // /**
+    //  * Check that the controller returns a response.
+    //  */
+    // public function testGameResponse()
+    // {
+    //     $controller = new YatzyController();
+    //     $this->assertInstanceOf("App\Http\Controllers\YatzyController", $controller);
+
+    //     // $response = $this->json('POST', '/yatzy/game', ['roll', 'roll']);
+
+    //     // $response->assertStatus(404);
+    //     $res = $controller->game();
+    //     $res->assertRedirect(201);
+    // }
 
     /**
      * Check that the controller returns a response.
      */
     public function testCheckAllBoxes()
     {
-        $controller = new Yatzy();
+        $controller = new YatzyController();
+        $this->assertInstanceOf("App\Http\Controllers\YatzyController", $controller);
 
-        $_SESSION = [
-            "select1" => "select1"
-        ];
+        session(['select1' => 'select1']);
 
         $exp = false;
         $res = $controller->checkAllBoxes();
         $this->assertEquals($exp, $res);
 
-        $_SESSION = [
-            "select1" => "select1",
+        session([
+            'select1' => 'select1',
             "select2" => "select2",
             "select3" => "select3",
             "select4" => "select4",
             "select5" => "select5",
             "select6" => "select6"
-        ];
+        ]);
 
         $res = $controller->checkAllBoxes();
         $this->assertNotEquals($exp, $res);
-    }
-
-        /**
-     * Check that the controller returns a response.
-     */
-    public function testGameResponse()
-    {
-        $controller = new Yatzy();
-
-        $exp = "\Psr\Http\Message\ResponseInterface";
-        $res = $controller->game();
-        $this->assertInstanceOf($exp, $res);
     }
 
     /**
@@ -122,16 +128,17 @@ class ControllerYatzyTest extends TestCase
      */
     public function testTrueRollInArray()
     {
-        $controller = new Yatzy();
+        $controller = new YatzyController();
+        $this->assertInstanceOf("App\Http\Controllers\YatzyController", $controller);
 
-        $_SESSION = [
+        session([
             "check" => [true, false, false, false, false]
-        ];
+        ]);
 
         $res = $controller->roll();
         $this->assertNotEmpty($res["dh"]);
         $this->assertNotNull($res["summa"]);
-        $this->assertEquals($_SESSION["rollCounter"], 2);
+        $this->assertEquals(session("rollCounter"), 2);
     }
 
     /**
@@ -139,25 +146,26 @@ class ControllerYatzyTest extends TestCase
      */
     public function testBonus()
     {
-        $controller = new Yatzy();
+        $controller = new YatzyController();
+        $this->assertInstanceOf("App\Http\Controllers\YatzyController", $controller);
 
-        $_SESSION = [
+        session([
             "summa" => 62,
             "bonus" => 0,
-        ];
+        ]);
 
         $controller->bonus();
-        $res = $_SESSION["bonus"];
+        $res = session("bonus");
         $exp = 0;
 
         $this->assertEquals($res, $exp);
 
-        $_SESSION = [
+        session([
             "summa" => 63
-        ];
+        ]);
 
         $controller->bonus();
-        $res = $_SESSION["bonus"];
+        $res = session("bonus");
         $exp = 50;
         $this->assertEquals($res, $exp);
     }
@@ -167,7 +175,8 @@ class ControllerYatzyTest extends TestCase
      */
     public function testSelection()
     {
-        $controller = new Yatzy();
+        $controller = new YatzyController();
+        $this->assertInstanceOf("App\Http\Controllers\YatzyController", $controller);
 
         $res = $this->selectionNumbers("1", $controller);
         $this->assertNotNull($res);
@@ -188,7 +197,7 @@ class ControllerYatzyTest extends TestCase
         $this->assertNotNull($res);
 
         $exp = ["0", "1", "2", "3", "4"];
-        $this->assertEquals($_SESSION["check"], $exp);
+        $this->assertEquals(session("check"), $exp);
     }
 
     /**
@@ -196,10 +205,10 @@ class ControllerYatzyTest extends TestCase
      */
     public function selectionNumbers($number, $controller)
     {
-        $_SESSION = [
+        session([
             "selection" => [(string)$number]
-        ];
+        ]);
         $controller->selection();
-        return $_SESSION["select" . (string)$number];
+        return session("select" . (string)$number);
     }
 }

@@ -3,7 +3,8 @@
   <coverage processUncoveredFiles="true">
     <include>
         <directory suffix=".php">config</directory>
-        <directory suffix=".php">src</directory>
+        <directory suffix=".php">app/http/Controllers</directory>
+        <!-- <directory suffix=".php">app/http/Dice</directory> -->
     </include>
     <report>
         <clover outputFile="build/coverage.clover"/>

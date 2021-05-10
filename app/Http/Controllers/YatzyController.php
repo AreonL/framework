@@ -12,7 +12,7 @@ use Illuminate\Http\Request;
 
 class YatzyController extends Controller
 {
-    public function index(Request $request)
+    public function index()
     {
         // $request->session()->flush();
         $roll = session("roll", null);
@@ -28,7 +28,7 @@ class YatzyController extends Controller
             'dh' => $data['dh'] ?? null,
             'roll' => $data['roll'] ?? null,
             'yatzy' => $data['yatzy'] ?? null,
-            'session' => $request->session()->all(),
+            'session' => session()->all(),
         ]);
     }
 

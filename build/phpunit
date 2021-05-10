@@ -1,100 +1,11 @@
 PHPUnit 9.5.4 by Sebastian Bergmann and contributors.
 
-WWWWWWWW.EEEEEEEEWWWEE                                            22 / 22 (100%)
+......................                                            22 / 22 (100%)
 
-Time: 00:00.064, Memory: 12.00 MB
+Time: 00:01.005, Memory: 36.00 MB
 
-There were 10 errors:
+OK (22 tests, 52 assertions)
 
-1) App\Http\Controllers\ControllerYatzyTest::testIndexReturnsResponse
-TypeError: Argument 1 passed to App\Http\Controllers\YatzyController::index() must be an instance of Illuminate\Http\Request, null given, called in C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Controller\ControllerYatzyTest.php on line 43
+Generating code coverage report in Clover XML format ... done [00:00.007]
 
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\app\Http\Controllers\YatzyController.php:15
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Controller\ControllerYatzyTest.php:43
-
-2) App\Http\Controllers\ControllerYatzyTest::testIndexFirstRollResponse
-Error: Class 'App\Http\Controllers\Yatzy' not found
-
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Controller\ControllerYatzyTest.php:53
-
-3) App\Http\Controllers\ControllerYatzyTest::testIndexRollResponse
-Error: Class 'App\Http\Controllers\Yatzy' not found
-
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Controller\ControllerYatzyTest.php:69
-
-4) App\Http\Controllers\ControllerYatzyTest::testCheckAllBoxes
-Error: Class 'App\Http\Controllers\Yatzy' not found
-
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Controller\ControllerYatzyTest.php:85
-
-5) App\Http\Controllers\ControllerYatzyTest::testGameResponse
-Error: Class 'App\Http\Controllers\Yatzy' not found
-
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Controller\ControllerYatzyTest.php:113
-
-6) App\Http\Controllers\ControllerYatzyTest::testTrueRollInArray
-Error: Class 'App\Http\Controllers\Yatzy' not found
-
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Controller\ControllerYatzyTest.php:125
-
-7) App\Http\Controllers\ControllerYatzyTest::testBonus
-Error: Class 'App\Http\Controllers\Yatzy' not found
-
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Controller\ControllerYatzyTest.php:142
-
-8) App\Http\Controllers\ControllerYatzyTest::testSelection
-Error: Class 'App\Http\Controllers\Yatzy' not found
-
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Controller\ControllerYatzyTest.php:170
-
-9) AreonL\Dice\DiceObjectTest::testCreateObject
-Error: Class 'AreonL\Dice\Dice' not found
-
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Dice\DiceObjectTest.php:18
-
-10) AreonL\Dice\GameObjectTest::testCreateObject
-Error: Class 'AreonL\Dice\Game' not found
-
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\test\Dice\GameObjectTest.php:18
-
---
-
-There were 11 warnings:
-
-1) Warning
-No tests found in class "Mos\Controller\ControllerDebugTest".
-
-2) Warning
-No tests found in class "Mos\Controller\ControllerDiceTest".
-
-3) Warning
-No tests found in class "Mos\Controller\ControllerErrorTest".
-
-4) Warning
-No tests found in class "Mos\Controller\ControllerFormTest".
-
-5) Warning
-No tests found in class "Mos\Controller\ControllerIndexTest".
-
-6) Warning
-No tests found in class "Mos\Controller\ControllerSampleTest".
-
-7) Warning
-No tests found in class "Mos\Controller\ControllerSessionTest".
-
-8) Warning
-No tests found in class "Mos\Controller\ControllerTwigViewTest".
-
-9) Warning
-No tests found in class "AreonL\Dice\DiceCheatObjectTest".
-
-10) Warning
-No tests found in class "AreonL\Dice\DiceGraphicObjectTest".
-
-11) Warning
-No tests found in class "AreonL\Dice\DiceHandObjectTest".
-
-ERRORS!
-Tests: 22, Assertions: 1, Errors: 10, Warnings: 11.
-
-Generating code coverage report in Clover XML format ... Target class [path.storage] does not exist.
+Generating code coverage report in HTML format ... done [00:00.125]

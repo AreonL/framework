@@ -2,10 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Mos\Controller;
+namespace App\Http\Controllers;
 
-use PHPUnit\Framework\TestCase;
-use Psr\Http\Message\ResponseInterface;
+use AreonL\Dice\{
+    Dice,
+    DiceHand,
+    DiceGraphic
+};
+
+use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\WithoutMiddleware;
+use Tests\TestCase;
+
+use Illuminate\Http\Request;
 
 /**
  * Test cases for the controller Session.
@@ -15,27 +24,22 @@ class ControllerSessionTest extends TestCase
     /**
      * Try to create the controller class.
      */
-    // public function testCreateTheControllerClass()
-    // {
-    //     $controller = new Session();
-    //     $this->assertInstanceOf("\Mos\Controller\Session", $controller);
-    // }
+    public function testCreateTheControllerClass()
+    {
+        $controller = new SessionController();
+        $this->assertInstanceOf("App\Http\Controllers\SessionController", $controller);
+    }
 
-    // /**
-    //  * Check that the controller returns a response.
-    //  * @runInSeparateProcess
-    //  */
-    // public function testControllerReturnsResponse()
-    // {
-    //     session_start();
-    //     $controller = new Session();
+    /**
+     * Check that the controller returns a response.
+     */
+    public function testReturnsResponse()
+    {
+        $controller = new SessionController();
+        $response = $this->get('/session');
 
-    //     $exp = "\Psr\Http\Message\ResponseInterface";
-    //     $res = $controller->index();
-    //     $this->assertInstanceOf($exp, $res);
-    // }
-
-
+        $response->assertStatus(200);
+    }
 
     // /**
     //  * Destroy the session.
