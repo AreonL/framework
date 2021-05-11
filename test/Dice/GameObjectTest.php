@@ -4,9 +4,9 @@ namespace AreonL\Dice;
 
 use PHPUnit\Framework\TestCase;
 
-/**
- * Test cases for class Guess.
- */
+// /**
+//  * Test cases for class Guess.
+//  */
 // class GameObjectTest extends TestCase
 // {
 //     /**

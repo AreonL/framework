@@ -3,7 +3,6 @@ parameters:
     paths:
         - config
         - app/http/controllers
-        - app/http/dice
         #- test
     bootstrapFiles:
         - .phpstan.constants.php

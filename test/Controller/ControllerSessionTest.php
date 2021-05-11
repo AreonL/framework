@@ -9,11 +9,9 @@ use AreonL\Dice\{
     DiceHand,
     DiceGraphic
 };
-
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Tests\TestCase;
-
 use Illuminate\Http\Request;
 
 /**
@@ -36,6 +34,7 @@ class ControllerSessionTest extends TestCase
     public function testReturnsResponse()
     {
         $controller = new SessionController();
+        $this->assertInstanceOf("App\Http\Controllers\SessionController", $controller);
         $response = $this->get('/session');
 
         $response->assertStatus(200);

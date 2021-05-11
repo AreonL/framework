@@ -9,15 +9,9 @@ use AreonL\Dice\{
     DiceHand,
     DiceGraphic
 };
-// use PHPUnit\Framework\TestCase;
-// use Psr\Http\Message\ResponseInterface;
-
-// namespace Tests\Feature;
-
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Tests\TestCase;
-
 use Illuminate\Http\Request;
 
 /**

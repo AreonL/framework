@@ -9,11 +9,9 @@ use AreonL\Dice\{
     DiceHand,
     DiceGraphic
 };
-
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Tests\TestCase;
-
 use Illuminate\Http\Request;
 
 /**
@@ -36,6 +34,8 @@ class ControllerHelloWorldTest extends TestCase
     public function testHelloResponse()
     {
         $controller = new HelloWorldController();
+        $this->assertInstanceOf("App\Http\Controllers\HelloWorldController", $controller);
+
         $response = $this->get('/hello');
 
         $response->assertStatus(200);
@@ -47,6 +47,8 @@ class ControllerHelloWorldTest extends TestCase
     public function testMessageResponse()
     {
         $controller = new HelloWorldController();
+        $this->assertInstanceOf("App\Http\Controllers\HelloWorldController", $controller);
+
         $response = $this->get('/hello/thismessage');
 
         $response->assertStatus(200);

@@ -1,0 +1,427 @@
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\app\Console\Kernel.php
+----------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------------
+ 37 | ERROR | [x] Expected at least 1 space before "."; 0 found
+ 37 | ERROR | [x] Expected at least 1 space after "."; 0 found
+----------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\app\Models\User.php
+-------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+-------------------------------------------------------------------------------
+ 12 | ERROR | [x] Each imported trait must have its own "use" import statement
+-------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\config\database.php
+-------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+-------------------------------------------------------------------------
+ 126 | ERROR | [x] Expected at least 1 space before "."; 0 found
+ 126 | ERROR | [x] Expected at least 1 space after "."; 0 found
+-------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+-------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\config\filesystems.php
+----------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------------
+ 41 | ERROR | [x] Expected at least 1 space before "."; 0 found
+ 41 | ERROR | [x] Expected at least 1 space after "."; 0 found
+----------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\config\session.php
+------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+------------------------------------------------------------------------
+ 131 | ERROR | [x] Expected at least 1 space before "."; 0 found
+ 131 | ERROR | [x] Expected at least 1 space after "."; 0 found
+------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2014_10_12_000000_create_users_table.php
+------------------------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+------------------------------------------------------------------------------------------------------------------
+ 7 | ERROR | Each class must be in a namespace of at least one level (a top-level vendor name)
+------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2014_10_12_100000_create_password_resets_table.php
+----------------------------------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------------------------------------------------------------
+ 7 | ERROR | Each class must be in a namespace of at least one level (a top-level vendor name)
+----------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2019_08_19_000000_create_failed_jobs_table.php
+------------------------------------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+------------------------------------------------------------------------------------------------------------------------
+ 7 | ERROR | Each class must be in a namespace of at least one level (a top-level vendor name)
+------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\170b812963fde22e1ac6d441ee36ed2ecfa2139f.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found "\r\n"
+ 10 | ERROR | [ ] The file header must be the first content in the file
+ 10 | ERROR | [x] Header blocks must be separated by a single blank line
+ 10 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\1b1c6bba32d8c5bc68d6042e8f77ebc7a62de6ea.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------------------------------------------------
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but found "\r\n"
+ 4 | ERROR | [ ] The file header must be the first content in the file
+ 4 | ERROR | [x] Header blocks must be separated by a single blank line
+ 4 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\1e25f76af123c34b62e1c1f641c56d7aa86f8812.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 1 LINE
+--------------------------------------------------------------------------------------------------------------------------
+ 5 | ERROR | [ ] The file header must be the first content in the file
+ 5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 5 | ERROR | [x] A closing tag is not permitted at the end of a PHP file
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\24c871b3b48c98b8c8305421dbdc069b24c39ae4.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 1 LINE
+--------------------------------------------------------------------------------------------------------------------------
+ 4 | ERROR | [ ] The file header must be the first content in the file
+ 4 | ERROR | [x] Header blocks must be separated by a single blank line
+ 4 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\3c8d11ac7cdc188150f1e88d8824fafe4967d7e2.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found "\r\n"
+ 29 | ERROR | [ ] The file header must be the first content in the file
+ 29 | ERROR | [x] Header blocks must be separated by a single blank line
+ 29 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\3da4a2cd711c11539c28683c38c876caaae1e96b.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 29 ERRORS AFFECTING 17 LINES
+--------------------------------------------------------------------------------------------------------------------------
+  28 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  28 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  31 | ERROR | [x] Expected 1 space(s) after ELSEIF keyword; 0 found
+  31 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  41 | ERROR | [x] Expected 1 space(s) after ELSEIF keyword; 0 found
+  41 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  47 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  47 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  60 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  60 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  62 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+  69 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  69 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  71 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+  78 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  78 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  80 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+  87 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  87 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  89 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+  96 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  96 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  98 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+ 105 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+ 105 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+ 107 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+ 123 | ERROR | [ ] The file header must be the first content in the file
+ 123 | ERROR | [x] Header blocks must be separated by a single blank line
+ 123 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 28 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\4577c69c960472131a1acde10a8035f1a71483ef.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found "\r\n"
+ 27 | ERROR | [ ] The file header must be the first content in the file
+ 27 | ERROR | [x] Header blocks must be separated by a single blank line
+ 27 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\6a62a9c12e838589300bb8ab6fb9566687a9809a.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 1 LINE
+--------------------------------------------------------------------------------------------------------------------------
+ 5 | ERROR | [ ] The file header must be the first content in the file
+ 5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 5 | ERROR | [x] A closing tag is not permitted at the end of a PHP file
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\6bbd9b9ac32748d820cebe0c59144854f4b34b77.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 19 ERRORS AFFECTING 10 LINES
+--------------------------------------------------------------------------------------------------------------------------
+   1 | ERROR | [x] End of line character is invalid; expected "\n" but found "\r\n"
+  33 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  33 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  37 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  37 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  47 | ERROR | [x] Expected 1 space(s) after ELSEIF keyword; 0 found
+  47 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  51 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  51 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  61 | ERROR | [x] Expected 1 space(s) after ELSEIF keyword; 0 found
+  61 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  81 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  81 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  94 | ERROR | [x] Expected 1 space(s) after ELSEIF keyword; 0 found
+  94 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+ 114 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+ 119 | ERROR | [ ] The file header must be the first content in the file
+ 119 | ERROR | [x] Header blocks must be separated by a single blank line
+ 119 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 18 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\77495510c4764ccea66d1fc23127015ed289d809.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 1 LINE
+--------------------------------------------------------------------------------------------------------------------------
+ 5 | ERROR | [ ] The file header must be the first content in the file
+ 5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 5 | ERROR | [x] A closing tag is not permitted at the end of a PHP file
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\85aedcee59238ec4cd1290b41f9f37fe399b1432.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found "\r\n"
+ 29 | ERROR | [ ] The file header must be the first content in the file
+ 29 | ERROR | [x] Header blocks must be separated by a single blank line
+ 29 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\8b2131fe3b1eb14a4d83e9a0478f37451c9d616e.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 30 ERRORS AFFECTING 18 LINES
+--------------------------------------------------------------------------------------------------------------------------
+   1 | ERROR | [x] End of line character is invalid; expected "\n" but found "\r\n"
+  28 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  28 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  31 | ERROR | [x] Expected 1 space(s) after ELSEIF keyword; 0 found
+  31 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  41 | ERROR | [x] Expected 1 space(s) after ELSEIF keyword; 0 found
+  41 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  47 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  47 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  60 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  60 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  62 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+  69 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  69 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  71 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+  78 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  78 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  80 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+  87 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  87 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  89 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+  96 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  96 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  98 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+ 105 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+ 105 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+ 107 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+ 121 | ERROR | [ ] The file header must be the first content in the file
+ 121 | ERROR | [x] Header blocks must be separated by a single blank line
+ 121 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 29 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\94b45b2a1aff624686fec447f3c5b9e399e3c1a5.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 1 LINE
+--------------------------------------------------------------------------------------------------------------------------
+ 39 | ERROR | [ ] The file header must be the first content in the file
+ 39 | ERROR | [x] Header blocks must be separated by a single blank line
+ 39 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\a64986fe450e1b4755103700fcbf6f30dd5fb49b.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 1 LINE
+--------------------------------------------------------------------------------------------------------------------------
+ 28 | ERROR | [ ] The file header must be the first content in the file
+ 28 | ERROR | [x] Header blocks must be separated by a single blank line
+ 28 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\c983cd8a35d73f795abfa121e4e96891255c45da.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 18 ERRORS AFFECTING 9 LINES
+--------------------------------------------------------------------------------------------------------------------------
+  33 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  33 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  37 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  37 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  47 | ERROR | [x] Expected 1 space(s) after ELSEIF keyword; 0 found
+  47 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  51 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  51 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  61 | ERROR | [x] Expected 1 space(s) after ELSEIF keyword; 0 found
+  61 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  81 | ERROR | [x] Expected 1 space(s) after IF keyword; 0 found
+  81 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+  94 | ERROR | [x] Expected 1 space(s) after ELSEIF keyword; 0 found
+  94 | ERROR | [x] Expected 1 space(s) after closing parenthesis; found 0
+ 114 | ERROR | [x] Expected 1 space(s) after ELSE keyword; 0 found
+ 121 | ERROR | [ ] The file header must be the first content in the file
+ 121 | ERROR | [x] Header blocks must be separated by a single blank line
+ 121 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 17 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\dacb42fbb448525b27d62a0ff06a8c940ffb9c8d.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found "\r\n"
+ 10 | ERROR | [ ] The file header must be the first content in the file
+ 10 | ERROR | [x] Header blocks must be separated by a single blank line
+ 10 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\f846973a4c195f08166c1d785a0009c2422dada5.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 1 LINE
+--------------------------------------------------------------------------------------------------------------------------
+ 5 | ERROR | [ ] The file header must be the first content in the file
+ 5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 5 | ERROR | [x] Header blocks must be separated by a single blank line
+ 5 | ERROR | [x] A closing tag is not permitted at the end of a PHP file
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\storage\framework\views\fd83a86e373f7389445ad8070ade7a6e5caeb159.php
+--------------------------------------------------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 1 LINE
+--------------------------------------------------------------------------------------------------------------------------
+ 39 | ERROR | [ ] The file header must be the first content in the file
+ 39 | ERROR | [x] Header blocks must be separated by a single blank line
+ 39 | ERROR | [x] Header blocks must be separated by a single blank line
+--------------------------------------------------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\tests\CreatesApplication.php
+----------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------------------
+ 16 | ERROR | [x] Expected at least 1 space before "."; 0 found
+ 16 | ERROR | [x] Expected at least 1 space after "."; 0 found
+----------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\tests\Feature\ExampleTest.php
+-----------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+-----------------------------------------------------------------------------------
+ 15 | ERROR | Method name "ExampleTest::test_example" is not in camel caps format
+-----------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\tests\functions.php
+----------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------------------
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but found "\r\n"
+----------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------------------
+
+
+FILE: C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\tests\Unit\ExampleTest.php
+----------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------------------
+ 14 | ERROR | Method name "ExampleTest::test_example" is not in camel caps format
+----------------------------------------------------------------------------------
+
+Time: 1.73 secs; Memory: 10MB
+

@@ -1,0 +1,21 @@
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\app\Console\Kernel.php:25	Avoid unused parameters such as '$schedule'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\app\Exceptions\Handler.php:37	Avoid unused parameters such as '$e'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\app\Http\Controllers\YatzyController.php:24	The method index uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\app\Providers\BroadcastServiceProvider.php:17	Avoid using static access to class '\Illuminate\Support\Facades\Broadcast' in method 'boot'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\app\Providers\RouteServiceProvider.php:59	Avoid using static access to class '\Illuminate\Support\Facades\RateLimiter' in method 'configureRateLimiting'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\factories\UserFactory.php:30	Avoid using static access to class '\Illuminate\Support\Str' in method 'definition'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\factories\UserFactory.php:41	Avoid unused parameters such as '$attributes'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2014_10_12_000000_create_users_table.php:14	Avoid using short method names like CreateUsersTable::up(). The configured minimum method name length is 3.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2014_10_12_000000_create_users_table.php:14	Avoid using short method names like CreateUsersTable::up(). The configured minimum method name length is 3.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2014_10_12_000000_create_users_table.php:16	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'up'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2014_10_12_000000_create_users_table.php:34	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'down'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2014_10_12_100000_create_password_resets_table.php:14	Avoid using short method names like CreatePasswordResetsTable::up(). The configured minimum method name length is 3.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2014_10_12_100000_create_password_resets_table.php:14	Avoid using short method names like CreatePasswordResetsTable::up(). The configured minimum method name length is 3.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2014_10_12_100000_create_password_resets_table.php:16	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'up'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2014_10_12_100000_create_password_resets_table.php:30	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'down'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2019_08_19_000000_create_failed_jobs_table.php:14	Avoid using short method names like CreateFailedJobsTable::up(). The configured minimum method name length is 3.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2019_08_19_000000_create_failed_jobs_table.php:14	Avoid using short method names like CreateFailedJobsTable::up(). The configured minimum method name length is 3.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2019_08_19_000000_create_failed_jobs_table.php:16	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'up'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\database\migrations\2019_08_19_000000_create_failed_jobs_table.php:34	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'down'.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\tests\Feature\ExampleTest.php:15	The method test_example is not named in camelCase.
+C:\Users\Anxiety\dbwebb-kurser\mvc\me\framework\tests\Unit\ExampleTest.php:14	The method test_example is not named in camelCase.
