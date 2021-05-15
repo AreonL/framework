@@ -5,7 +5,8 @@ use App\Http\Controllers\{
     HelloWorldController,
     YatzyController,
     SessionController,
-    GameController
+    GameController,
+    BookController,
 };
 
 /*
@@ -45,3 +46,6 @@ Route::post('/session/destroy', [SessionController::class, 'destroy']);
 
 Route::get('/game21', [GameController::class, 'index']);
 Route::post('/game21/roll', [GameController::class, 'roll']);
+
+Route::get('/book', [BookController::class, 'index']);
+Route::post('/book/store', [BookController::class, 'store']);
