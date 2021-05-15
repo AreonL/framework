@@ -39,7 +39,6 @@ $books = $books ?? null;
         <div>{{ $errors->first('picture') }}</div>
     </div>
 
-    
 
     <button type="submit">Add Book</button>
 </form>

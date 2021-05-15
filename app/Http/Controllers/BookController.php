@@ -12,27 +12,8 @@ class BookController extends Controller
     {
         $books = Book::all();
 
-        // dd($books);
-
-        // $books = [
-        //     'Nalle puh',
-        //     'Pippi',
-        //     'Byggaren bob'
-        // ];
-
-        // $arr = array();
-
-        // $results = Book::select('select * from books where name = Nalle Puh');
-
-        // dd($results);
-
-        // foreach ($results as $res) {
-        //     $arr[] = $res->name;
-        // }
-
         return view('book', [
-            // 'results' => $results,
-            'books' => $books,
+            'books' => $books ?? null,
             'header' => 'Booooks'
         ]);
     }

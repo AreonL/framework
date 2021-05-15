@@ -28,6 +28,20 @@ $bonus = $session["bonus"] ?? 0;
 @if($end)
     <p>The end</p>
     <p>Total sum: {{ $bonus + $summa }}</p>
+    <form method="post" action="highscore/store">
+        @csrf
+        <p>
+            <label for="name">Namn:</label>
+        </p>
+        <p>
+            <input type="text" name="name">
+            <div>{{ $errors->first('name') }}</div>
+        </p>
+        <p>
+            <input type="hidden" name="score" value={{ $bonus + $summa }}>
+            <input type="submit" value="Submit score!">
+        </p>        
+    </form>
 @elseif($yatzy)
     <p>{{ $message }}</p>
     <form method="post" action="{{ $action }}">

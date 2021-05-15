@@ -21,7 +21,8 @@
             <a href={{ url("/yatzy") }}>Yatzy</a> | 
             <a href={{ url("/game21") }}>Game21</a> | 
             <a href={{ url("/session") }}>Clear Session</a> | 
-            <a href={{ url("/book") }}>Book club</a>
+            <a href={{ url("/book") }}>Book club</a> | 
+            <a href={{ url("/highscore") }}>Highscore</a>
         </nav>
     </header>
     <body>

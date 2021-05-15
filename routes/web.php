@@ -7,6 +7,7 @@ use App\Http\Controllers\{
     SessionController,
     GameController,
     BookController,
+    HighscoreController,
 };
 
 /*
@@ -47,5 +48,9 @@ Route::post('/session/destroy', [SessionController::class, 'destroy']);
 Route::get('/game21', [GameController::class, 'index']);
 Route::post('/game21/roll', [GameController::class, 'roll']);
 
+// Kmom05 / Book club and highscore
 Route::get('/book', [BookController::class, 'index']);
 Route::post('/book/store', [BookController::class, 'store']);
+
+Route::get('/highscore', [HighscoreController::class, 'index']);
+Route::post('/highscore/store', [HighscoreController::class, 'store']);
