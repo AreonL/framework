@@ -18,8 +18,8 @@ class HighscoreController extends Controller
             $arr[] = array($key['name'], $key['score']);
         }
 
-        usort($arr, function($a, $b) {
-            return $b[1] <=> $a[1];
+        usort($arr, function ($number1, $number2) {
+            return $number2[1] <=> $number1[1];
         });
 
         return view('highscore', [
@@ -30,7 +30,7 @@ class HighscoreController extends Controller
 
     public function store()
     {
-        $data = request()->validate([
+        request()->validate([
             'name' => 'required',
         ]);
 

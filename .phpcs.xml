@@ -11,6 +11,17 @@
     <exclude-pattern>theme</exclude-pattern>
     <exclude-pattern>vendor</exclude-pattern>
 
+    <!-- I added these -->
+    <exclude-pattern>tests/Feature</exclude-pattern>
+    <exclude-pattern>tests/CreatesApplication.php</exclude-pattern>
+    <exclude-pattern>tests/functions.php</exclude-pattern>
+    <exclude-pattern>tests/Unit</exclude-pattern>
+    <exclude-pattern>app/Console</exclude-pattern>
+    <exclude-pattern>storage/framework/views</exclude-pattern>
+    <exclude-pattern>config</exclude-pattern>
+    
+
+
     <arg name="encoding" value="utf-8"/>
     <arg name="warning-severity" value="0"/>
 

@@ -7,7 +7,7 @@ use App\Http\Controllers\{
     SessionController,
     GameController,
     BookController,
-    HighscoreController,
+    HighscoreController
 };
 
 /*

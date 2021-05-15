@@ -6,3 +6,7 @@ parameters:
         #- test
     bootstrapFiles:
         - .phpstan.constants.php
+    ignoreErrors:
+        -
+            message: '#Access to an undefined property [a-zA-Z0-9\\_]+::\$+[a-zA-Z0-9\\_]#'
+            path: app/http/controllers/*
