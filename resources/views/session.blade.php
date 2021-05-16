@@ -18,7 +18,7 @@ $session = $session ?? null;
     {{ $s }}
 @endforeach --}}
 
-<form method="post" action="/session/destroy">
+<form method="post" action="session/destroy">
     @csrf
     <p>
         <input type="submit" value="Destroy session">
