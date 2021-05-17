@@ -2,7 +2,7 @@ imports:
     - php
 
 filter:
-    paths: ["app/http/Controllers/*"]
+    # paths: ["app/http/Controllers/*"]
     excluded_paths: [vendor/*, tests/*]
 
 build:
