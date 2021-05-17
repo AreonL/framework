@@ -15,6 +15,7 @@ class CreateBooksTable extends Migration
      */
     public function up()
     {
+        Schema::dropIfExists('books');
         // title, ISBN, author, url to picture
         Schema::create('books', function (Blueprint $table) {
             $table->id();

@@ -15,6 +15,7 @@ class CreateHighscoresTable extends Migration
      */
     public function up()
     {
+        Schema::dropIfExists('highscores');
         Schema::create('highscores', function (Blueprint $table) {
             $table->id();
             $table->string('name');
