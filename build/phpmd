@@ -1,3 +1,0 @@
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\orm\app\Http\Controllers\BookController.php:13	Avoid using static access to class '\App\Models\Book' in method 'index'.
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\orm\app\Http\Controllers\HighscoreController.php:13	Avoid using static access to class '\App\Models\Highscore' in method 'index'.
-C:\Users\Anxiety\dbwebb-kurser\mvc\me\orm\app\Http\Controllers\YatzyController.php:24	The method index uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.

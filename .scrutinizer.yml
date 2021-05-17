@@ -2,10 +2,15 @@ imports:
     - php
 
 filter:
-    excluded_paths: [vendor/*, tests/*]
+    paths: ["app/http/Controllers/*"]
+    # excluded_paths: [vendor/*, tests/*]
 
 build:
     nodes:
+        analysis:
+            project_setup:
+                override:
+                    - 'true'
         my-tests:
             environment:
                 php:
