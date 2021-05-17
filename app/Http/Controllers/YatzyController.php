@@ -137,23 +137,25 @@ class YatzyController extends Controller
 
         $selection = session('selection')[0] ?? null;
         $sumNumber = session('diceHand')->getSumNumber((int)$selection) ?? 0;
-        if ($selection == "1") {
-            session(['select1' => $sumNumber]);
-        }
-        if ($selection == "2") {
-            session(['select2' => $sumNumber]);
-        }
-        if ($selection == "3") {
-            session(['select3' => $sumNumber]);
-        }
-        if ($selection == "4") {
-            session(['select4' => $sumNumber]);
-        }
-        if ($selection == "5") {
-            session(['select5' => $sumNumber]);
-        }
-        if ($selection == "6") {
-            session(['select6' => $sumNumber]);
+        switch ($selection) {
+            case '1':
+                session(['select1' => $sumNumber]);
+                break;
+            case '2':
+                session(['select2' => $sumNumber]);
+                break;
+            case '3':
+                session(['select3' => $sumNumber]);
+                break;
+            case '4':
+                session(['select4' => $sumNumber]);
+                break;
+            case '5':
+                session(['select5' => $sumNumber]);
+                break;
+            case '6':
+                session(['select6' => $sumNumber]);
+                break;
         }
         if ($selection) {
             session(['rollCounter' => 0]);
