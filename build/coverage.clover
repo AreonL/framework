@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1621287705">
-  <project timestamp="1621287705">
+<coverage generated="1621288960">
+  <project timestamp="1621288960">
     <file name="C:\Users\Anxiety\dbwebb-kurser\mvc\me\ci\app\Http\Controllers\BookController.php">
       <class name="App\Http\Controllers\BookController" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="13" coveredstatements="0" elements="15" coveredelements="0"/>
@@ -185,7 +185,7 @@
     </file>
     <file name="C:\Users\Anxiety\dbwebb-kurser\mvc\me\ci\app\Http\Controllers\YatzyController.php">
       <class name="App\Http\Controllers\YatzyController" namespace="global">
-        <metrics complexity="29" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="103" coveredstatements="97" elements="112" coveredelements="105"/>
+        <metrics complexity="29" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="109" coveredstatements="103" elements="118" coveredelements="111"/>
       </class>
       <line num="15" type="method" name="index" visibility="public" complexity="3" crap="3" count="3"/>
       <line num="18" type="stmt" count="3"/>
@@ -260,46 +260,52 @@
       <line num="136" type="stmt" count="3"/>
       <line num="138" type="stmt" count="3"/>
       <line num="139" type="stmt" count="3"/>
-      <line num="140" type="stmt" count="3"/>
-      <line num="141" type="stmt" count="1"/>
-      <line num="143" type="stmt" count="3"/>
-      <line num="144" type="stmt" count="1"/>
-      <line num="146" type="stmt" count="3"/>
-      <line num="147" type="stmt" count="1"/>
-      <line num="149" type="stmt" count="3"/>
-      <line num="150" type="stmt" count="1"/>
-      <line num="152" type="stmt" count="3"/>
-      <line num="153" type="stmt" count="1"/>
-      <line num="155" type="stmt" count="3"/>
-      <line num="156" type="stmt" count="1"/>
-      <line num="158" type="stmt" count="3"/>
-      <line num="159" type="stmt" count="1"/>
-      <line num="160" type="stmt" count="1"/>
+      <line num="141" type="stmt" count="3"/>
+      <line num="142" type="stmt" count="1"/>
+      <line num="143" type="stmt" count="1"/>
+      <line num="144" type="stmt" count="3"/>
+      <line num="145" type="stmt" count="1"/>
+      <line num="146" type="stmt" count="1"/>
+      <line num="147" type="stmt" count="3"/>
+      <line num="148" type="stmt" count="1"/>
+      <line num="149" type="stmt" count="1"/>
+      <line num="150" type="stmt" count="3"/>
+      <line num="151" type="stmt" count="1"/>
+      <line num="152" type="stmt" count="1"/>
+      <line num="153" type="stmt" count="3"/>
+      <line num="154" type="stmt" count="1"/>
+      <line num="155" type="stmt" count="1"/>
+      <line num="156" type="stmt" count="3"/>
+      <line num="157" type="stmt" count="1"/>
+      <line num="158" type="stmt" count="1"/>
+      <line num="160" type="stmt" count="3"/>
       <line num="161" type="stmt" count="1"/>
       <line num="162" type="stmt" count="1"/>
       <line num="163" type="stmt" count="1"/>
-      <line num="165" type="stmt" count="3"/>
-      <line num="167" type="method" name="bonus" visibility="public" complexity="2" crap="2" count="3"/>
-      <line num="169" type="stmt" count="3"/>
-      <line num="170" type="stmt" count="3"/>
-      <line num="171" type="stmt" count="1"/>
-      <line num="173" type="stmt" count="3"/>
-      <line num="175" type="method" name="checkAllBoxes" visibility="public" complexity="7" crap="7" count="2"/>
-      <line num="177" type="stmt" count="2"/>
-      <line num="178" type="stmt" count="2"/>
+      <line num="164" type="stmt" count="1"/>
+      <line num="165" type="stmt" count="1"/>
+      <line num="167" type="stmt" count="3"/>
+      <line num="169" type="method" name="bonus" visibility="public" complexity="2" crap="2" count="3"/>
+      <line num="171" type="stmt" count="3"/>
+      <line num="172" type="stmt" count="3"/>
+      <line num="173" type="stmt" count="1"/>
+      <line num="175" type="stmt" count="3"/>
+      <line num="177" type="method" name="checkAllBoxes" visibility="public" complexity="7" crap="7" count="2"/>
       <line num="179" type="stmt" count="2"/>
       <line num="180" type="stmt" count="2"/>
       <line num="181" type="stmt" count="2"/>
       <line num="182" type="stmt" count="2"/>
+      <line num="183" type="stmt" count="2"/>
       <line num="184" type="stmt" count="2"/>
-      <line num="185" type="stmt" count="2"/>
       <line num="186" type="stmt" count="2"/>
       <line num="187" type="stmt" count="2"/>
       <line num="188" type="stmt" count="2"/>
       <line num="189" type="stmt" count="2"/>
+      <line num="190" type="stmt" count="2"/>
       <line num="191" type="stmt" count="2"/>
       <line num="193" type="stmt" count="2"/>
-      <metrics loc="195" ncloc="182" classes="1" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="103" coveredstatements="97" elements="112" coveredelements="105"/>
+      <line num="195" type="stmt" count="2"/>
+      <metrics loc="197" ncloc="184" classes="1" methods="9" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="109" coveredstatements="103" elements="118" coveredelements="111"/>
     </file>
     <file name="C:\Users\Anxiety\dbwebb-kurser\mvc\me\ci\config\app.php">
       <line num="16" type="stmt" count="22"/>
@@ -528,6 +534,6 @@
       <line num="33" type="stmt" count="22"/>
       <metrics loc="36" ncloc="16" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="4" coveredelements="4"/>
     </file>
-    <metrics files="21" loc="1900" ncloc="1234" classes="6" methods="23" coveredmethods="16" conditionals="0" coveredconditionals="0" statements="420" coveredstatements="372" elements="443" coveredelements="388"/>
+    <metrics files="21" loc="1902" ncloc="1236" classes="6" methods="23" coveredmethods="16" conditionals="0" coveredconditionals="0" statements="426" coveredstatements="378" elements="449" coveredelements="394"/>
   </project>
 </coverage>
