@@ -7,14 +7,13 @@ filter:
 
 build:
     nodes:
-        analysis:
-            project_setup:
-                override:
-                    - 'true'
         my-tests:
             environment:
                 php:
                     version: 7.4
+        project_setup:
+            override:
+                - 'true'
     tests:
         override:
             -
