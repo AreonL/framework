@@ -158,19 +158,19 @@ class YatzyController extends Controller
 
     public function checkAllBoxes(): bool
     {
-        $select1 = session('select1') ?? null;
-        $select2 = session('select2') ?? null;
-        $select3 = session('select3') ?? null;
-        $select4 = session('select4') ?? null;
-        $select5 = session('select5') ?? null;
-        $select6 = session('select6') ?? null;
+        // $select1 = session('select1') ?? null;
+        // $select2 = session('select2') ?? null;
+        // $select3 = session('select3') ?? null;
+        // $select4 = session('select4') ?? null;
+        // $select5 = session('select5') ?? null;
+        // $select6 = session('select6') ?? null;
         if (
-            !is_null($select1) &&
-            !is_null($select2) &&
-            !is_null($select3) &&
-            !is_null($select4) &&
-            !is_null($select5) &&
-            !is_null($select6)
+            !is_null(session('select1')) &&
+            !is_null(session('select2')) &&
+            !is_null(session('select3')) &&
+            !is_null(session('select4')) &&
+            !is_null(session('select5')) &&
+            !is_null(session('select6'))
         ) {
             return true;
         }
