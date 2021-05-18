@@ -1,21 +1,9 @@
-Framework test
+[![Build Status](https://travis-ci.com/AreonL/framework.svg?branch=main)](https://travis-ci.com/AreonL/framework)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/AreonL/framework/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/AreonL/framework/?branch=main)
+[![Code Coverage](https://scrutinizer-ci.com/g/AreonL/framework/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/AreonL/framework/?branch=main)
+[![Build Status](https://scrutinizer-ci.com/g/AreonL/framework/badges/build.png?b=main)](https://scrutinizer-ci.com/g/AreonL/framework/build-status/main)
+
+Framework / ORM / CI
 ==========================
 
-The proposed way to test out these frameworks are to copy them all to you `me/frameworks-test/` directory and use them from there.
-
-```
-# Go to the root of the course repo
-rsync -av example/framework/ me/framework-test/
-cd me/framework-test
-```
-
-Each directory contains the instructions on how to get going with each framework.
-
-Do remember to update each `.htaccess` and replace 'arba20' with your own acronym.
-
-
-
-Docker
-----------------------------
-
-You can use `docker-compose` and the file `docker-compose.yaml` to start up a docker container to run the frameworks in.
+Framework is laravel with sqldatabase

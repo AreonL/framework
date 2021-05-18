@@ -1,6 +1,6 @@
 <?php
 
-// namespace database\migrations;
+// namespace database\migrations; // Uncomment to make test validate this, comment to make scrutinizer validate this
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
