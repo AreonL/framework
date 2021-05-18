@@ -1,0 +1,20 @@
+
+FILE: ...vc\me\ci\database\migrations\2021_05_17_204222_create_highscores_table.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 9 | ERROR | Each class must be in a namespace of at least one level (a
+   |       | top-level vendor name)
+--------------------------------------------------------------------------------
+
+
+FILE: ...ser\mvc\me\ci\database\migrations\2021_05_17_204228_create_books_table.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 9 | ERROR | Each class must be in a namespace of at least one level (a
+   |       | top-level vendor name)
+--------------------------------------------------------------------------------
+
+Time: 1.55 secs; Memory: 8MB
+
