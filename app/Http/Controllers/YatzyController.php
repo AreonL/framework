@@ -158,12 +158,14 @@ class YatzyController extends Controller
 
     public function checkAllBoxes(): bool
     {
+        $select = array();
         $select[] = session('select1') ?? null;
         $select[] = session('select2') ?? null;
         $select[] = session('select3') ?? null;
         $select[] = session('select4') ?? null;
         $select[] = session('select5') ?? null;
         $select[] = session('select6') ?? null;
+
         $count = 0;
 
         foreach ($select as $key) {
